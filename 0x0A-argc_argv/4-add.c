@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,6 +8,7 @@
   * @argv: an array of a command listed
   * Return: 0 for success
   */
+
 int main(int argc, char *argv[])
 {
 	int result = 0, num, i, j, k;
@@ -30,3 +32,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 	return (0);
 }
+
